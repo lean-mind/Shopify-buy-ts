@@ -168,6 +168,12 @@ declare namespace ShopifyBuy {
      * The product’s vendor name
      */
     vendor: string;
+
+    /**
+     * A categorization that a product can be tagged with, commonly used for filtering and searching.
+     * Each comma-separated tag has a character limit of 255.
+     */
+    tags: string[];
   }
 
   export interface ProductVariant extends GraphModel {
