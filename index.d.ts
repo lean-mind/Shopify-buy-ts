@@ -305,10 +305,9 @@ declare namespace ShopifyBuy {
     lineItems: LineItem[];
 
     /**
-     * Get current subtotal price for all line items.
-     * Example: two items have been added to the cart that cost $1.25 then the subtotal will be 2.50
+     * Price of the checkout before shipping, taxes, and discounts.
      */
-    subtotal: string;
+    subtotalPrice: string;
   }
 
   export interface LineItem extends GraphModel {
