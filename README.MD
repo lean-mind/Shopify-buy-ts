@@ -1,5 +1,5 @@
 
-This is **not** an official version of Shopify/js-buy-sdk library that is available at `npm`.
+This is **not** the official version of Shopify/js-buy-sdk library that is available at `npm` as `@types/shopify-buy`.
 
 For the official library, please go to: https://github.com/DefinitelyTyped/DefinitelyTyped/
 
